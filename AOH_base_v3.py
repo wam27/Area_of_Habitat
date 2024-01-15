@@ -5,12 +5,7 @@ Created on Tue Dec 26 18:44:59 2023
 @author: wam27
 """
 
-#Protocol for mapping Area of Habita (AOH)
-#This is the fourth step in the protocol used for mapping 1000 AOHs for birds in the Americas.
-#The published paper can be found in the following link: https://doi.org/10.1371/journal.pone.0259299
-#In short, this tool takes presence points, extracts elevation and forest values, and overlaps elevation and habitat within the species distribution, resulting in the AOH. See more info on what AOHs are, here: https://doi.org/10.1016/j.tree.2019.06.009
-#The user needs to have an ArcGIS account in order to use arcpy packages to set absences. If AOH only is required, the user do not need to install arcpy. I am working on replacing arcpy with other packages to reduce dependency on ArcGIS.
-#The following parameters are needed: df (pandas dataframe) is a dataframe generated in the first step fo the protocol that consists on extracting species ranges for an area of interest.
+#The following parameters are required: df (pandas dataframe) is a dataframe generated in the first step fo the protocol that consists on extracting species ranges for an area of interest.
 #The data frame usually is a list of species containing data from Birds of the World databases from BirdLife and other information extracted from the IUCN API such asmin and max elevation ranges and habitat.
 # It also contains information based on eBird.
 #n (int) is the number assigned to each run. This is to code each output after each run.
