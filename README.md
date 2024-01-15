@@ -1,5 +1,5 @@
-# Area_of_Habitat
- Protocol to map AOH with python
+# Area of Habitat
+ ## Protocol to map AOH with python
 
 Protocol for mapping Area of Habita (AOH)
 This is the fourth step in the protocol used for mapping 1000 AOHs for birds in the Americas.
