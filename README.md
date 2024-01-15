@@ -1,5 +1,6 @@
 # Area of Habitat
  ## Protocol to map AOH with python
+ ## Area of Habitat maps the habitat (elevation and tree cover) within a species range. Here, I provide the python code to map AOHs of birds using eBird and GBIF data.
 
 Protocol for mapping Area of Habita (AOH).
 This is the fourth step in the protocol used for mapping 1000 AOHs for birds in the Americas.
